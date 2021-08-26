@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .App-header {
   background-color: #282c34;
   display: flex;
@@ -11,10 +10,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
+  overflow: hidden;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App .App-header img {
+  display: block;
+  height:  80vh;
+  width:  auto;
 }
 
 
