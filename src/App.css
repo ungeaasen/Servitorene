@@ -1,15 +1,17 @@
 .App {
   text-align: center;
+  background-color: #b4a6ca;
+  height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #210b32;
   width: 100%;
   overflow: hidden;
 }
@@ -23,5 +25,6 @@
   height:  80vh;
   width:  auto;
 }
+
 
 
